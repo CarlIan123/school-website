@@ -1,0 +1,161 @@
+2nd Page (Detailed)
+
+<!DOCTYPE html>
+<!-- Declares this document as an HTML5 document -->
+
+<html>
+<!-- Root element of the entire webpage -->
+
+  <head>
+    <!-- Head contains metadata and resources like title, CSS, and fonts -->
+
+    <meta charset="UTF-8" />
+    <!-- Sets character encoding to UTF-8 (supports most characters and symbols) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Makes the layout responsive for all screen sizes, especially mobile -->
+
+    <title>Programs & Facilities - SPCF</title>
+    <!-- Sets the title shown on the browser tab -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Links to external CSS file for custom styling -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">  
+    <!-- Imports the Poppins font from Google Fonts for a modern, clean look -->
+  </head>
+
+  <body>
+    <!-- Main content of the webpage starts here -->
+
+    <header>
+        <!-- Defines the top section (site header) -->
+
+        <nav class="navbar">
+            <!-- Navigation bar with links and logo -->
+
+            <div class="logo_container">
+                <!-- Contains the logo image and text -->
+
+                <img src="images/logo.png" alt="SPCF Logo" class="logo_img"/>
+                <!-- School logo image with alt text and custom styling class -->
+
+                <a href="main.html" class="logo_text">
+                    <!-- Clickable logo text that links to home page -->
+                    System Plus<br><span>College Foundation</span>
+                    <!-- Uses <br> for line break and <span> for stylized subtext -->
+                </a>
+            </div>
+
+            <div class="nav_links">
+                <!-- Container for navbar links -->
+
+                <a href="main.html"> Home</a>
+                <!-- Link to homepage -->
+
+                <a href="prog_and_fac.html">Programs & Facilities</a>
+                <!-- Link to this current page -->
+            </div>
+        </nav>
+    </header>
+
+    <section class="section center-text" id="programs">
+        <!-- Section for listing academic programs, with centered text -->
+
+        <h3>Academic Programs</h3>
+        <!-- Section heading -->
+
+        <ul class="program_list">
+            <!-- Unordered list of programs, styled via CSS -->
+
+            <li>Master in Information Technology</li>
+            <!-- Single program -->
+
+            <li>
+                Bachelor of Science in Information Technology
+                <!-- Program name -->
+
+                <ul>
+                    <!-- Sub-list for specializations -->
+                    <li>Network Administration</li>
+                    <li>Mobile Development</li>
+                </ul>
+            </li>
+
+            <li>Bachelor of Science in Computer Science</li>
+            <li>Bachelor of Science in Information Systems</li>
+            <li>Bachelor of Science in Entertainment and Multimedia Computing</li>
+            <li>Associate in Computer Technology</li>
+            <!-- Additional program offerings -->
+        </ul>
+    </section>
+
+    <section class="section highlight" id="facilities">
+        <!-- Section for listing facilities with highlighted background -->
+
+        <h3 class="center text">Our Facilities</h3>
+        <!-- Section heading, center-aligned with extra class for styling -->
+
+        <div class="facility_grid">
+            <!-- Grid layout for facility cards -->
+
+            <div class="facility_card">
+                <img src="images/theatre.jpg">
+                <h4>Theatre</h4>
+                <p>A dedicated venue for formal events, academic programs, and cultural presentations.</p>
+            </div>
+
+            <div class="facility_card">
+                <img src="images/library.jpg">
+                <h4>Library</h4>
+                <p>Extensive study and research resources</p>
+            </div>
+
+            <div class="facility_card">
+                <img src="images/logo.png">
+                <h4>Computer Labs</h4>
+                <p>Outfitted with modern softwares and fast processors</p>
+            </div>
+
+            <div class="facility_card">
+                <img src="images/logo.png">
+                <h4>School Gym</h4>
+                <p>Fitness and wellness facilities for all students</p>
+            </div>
+
+            <div class="facility_card nested">
+                <img src="images/basketball.jpg">
+                <h4>Basketball Court</h4>
+                <p>Outdoor court for competitions and training</p>
+            </div>
+
+            <div class="facility_card nested">
+                <img src="images/pool.jpg">
+                <h4>Swimming Pool</h4>
+                <p>A standard training pool designed to support physical education classes and student competitions.</p>
+            </div>
+
+            <div class="facility_card">
+                <img src="images/drawing.jpg">
+                <h4>Drawing Lab</h4>
+                <p>A specialized facility reserved for students pursuing courses in technical and creative drawing</p>
+            </div>
+
+            <div class="facility_card">
+                <img src="images/chapel.jpg">
+                <h4>Chapel</h4>
+                <p>Peaceful setting for self-reflection and spiritual Development</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <!-- Bottom part of the page -->
+
+        <p>&copy; System Plus College Foundation. All rights reserved.</p>
+        <!-- Copyright -->
+    </footer>
+
+  </body>
+</html>

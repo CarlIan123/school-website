@@ -1,0 +1,126 @@
+Main Page (Detailed)
+
+<!DOCTYPE html>
+<!-- Declares the document type and version (HTML5) -->
+
+<html>
+<!-- Root element of the HTML document -->
+  
+  <head>
+    <!-- Head section contains meta, title, styles, and fonts -->
+
+    <meta charset="UTF-8" />
+    <!-- Sets the character encoding to UTF-8 (supports all characters) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures the site is responsive on mobile devices -->
+
+    <title>System Plus College Foundation</title>
+    <!-- Page title shown in the browser tab -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Links external CSS stylesheet (your custom design) -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <!-- Loads the Poppins font from Google Fonts for a modern look -->
+
+  </head>
+
+  <body>
+    <!-- Visible content starts here -->
+
+    <header>
+      <!-- Header section, usually includes the navbar -->
+      
+      <nav class="navbar">
+        <!-- Navigation bar using a flex container -->
+
+        <div class="logo_container">
+          <!-- Flex container for logo image and text -->
+
+          <img src="images/logo.png" alt="SPCF Logo" class="logo_img" />
+          <!-- Logo image with alt text and CSS class -->
+
+          <a href="main.html" class="logo_text">
+            <!-- Clickable logo text linking to homepage -->
+            System Plus <br><span>College Foundation</span>
+            <!-- School name, with "College Foundation" on a new line via <br> -->
+          </a>
+        </div>
+
+        <div class="nav_links">
+          <!-- Container for navigation links -->
+
+          <a href="main.html">Home</a>
+          <!-- Link to homepage -->
+
+          <a href="prog_and_fac.html">Programs & Facilities</a>
+          <!-- Link to programs & facilities page -->
+        </div>
+      </nav>
+    </header>
+
+    <section class="section highlight" id="greeting">
+      <!-- Section with light background and fade-in animation -->
+
+      <h2>College of Computing and Information Sciences</h2>
+      <!-- Section heading -->
+
+      <p>
+        Welcome to the College of Computing and Information Sciences - a place where upcoming innovators and IT leaders start their careers. Develop the abilities that will influence the digital future while pursuing your passion for technology.
+      </p>
+      <!-- Section description paragraph -->
+    </section>
+
+    <section class="section" id="courses">
+      <!-- Main section for course listing -->
+
+      <h2>College of Computing and Information Sciences</h2>
+      <!-- Reiterates heading for context -->
+
+      <ul>
+        <!-- Unordered list of programs -->
+        <li>Information Technology</li>
+        <li>Entertainment and Multimedia Computing</li>
+        <li>Computer Sciences</li>
+      </ul>
+
+      <p class="note">
+        And many more. For more Information, visit the Programs & Facilities page.
+      </p>
+      <!-- Extra note with italic style (from CSS) -->
+    </section>
+
+    <section class="section highlight" id="why_spcf">
+      <!-- Another section with alternating background -->
+
+      <h2>What Sets CCIS Apart?</h2>
+      <!-- Section heading -->
+
+      <p>
+        The College of Computing and Information Sciences (CCIS) provides a hands-on, future-focused education in IT, Computer Science, and Multimedia. With our industry-aligned curriculum, knowledgeable instructors, and state-of-the-art facilities, you'll be prepared for the workforce as soon as you graduate.
+      </p>
+      <!-- Detailed paragraph highlighting CCIS strengths -->
+    </section>
+
+    <section class="section" id="info">
+      <!-- Section for contact/school information -->
+
+      <h2>School Information</h2>
+      <!-- Section heading -->
+
+      <p><strong>Address:</strong> Sta. Isabel Building, Angeles, Pampanga</p>
+      <p><strong>Email:</strong> info@spcf.edu.ph</p>
+      <p><strong>Phone:</strong> 0919-069-2914</p>
+      <!-- Contact details using bold labels -->
+    </section>
+
+    <footer>
+      <!-- Footer section -->
+
+      <p>&copy; System Plus College Foundation. All rights reserved.</p>
+      <!-- Copyright -->
+    </footer>
+
+  </body>
+</html>
